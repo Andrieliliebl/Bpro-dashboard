@@ -1,17 +1,38 @@
+@font-face {
+  font-family: NeuePlak;
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Black.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Bold.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ Black.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ Bold.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ ExtraBlack.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ Light.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ Regular.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ SemiBold.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ Thin.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Condensed\ UltraLight.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Extended\ Black.ttf');
+  src: url('../assets/neue-plak-cufonfonts/Neue\ Plak\ Extended\ Bold.ttf');
+}
+
+
+
 body {
-  background: #e6e6e5;
+  background: #585756;
+  font-family: NeuePlak, sans-serif;
 }
 
 #side_nav {
   background: #2e2d2c;
   min-width: 250px;
   max-width: 250px;
+  margin-right: .04em;
   transition: all 0.3s;
 }
 
 .content {
   min-height: 100vh;
   width: 100%;
+  background-color: #2e2d2c;
 }
 
 hr.h-color {
@@ -24,9 +45,8 @@ hr.h-color {
 }
 
 .sidebar li a {
-  color: #fff;
+  color: #e6e6e5;
 }
-
 
 .navbar-mobile {
   background: #2e2d2c;
@@ -34,14 +54,97 @@ hr.h-color {
 }
 
 .btn-mobile {
-  color: #fff;
+  color: #e6e6e5;
 }
 
 .mobile-list-items a {
-  color: #fff;
+  color: #e6e6e5;
+}
+
+.border-radius {
+  border-radius: .5em;
+}
+
+.b-gray {
+  background-color: #2e2d2c;
+}
+
+.b-lightgray {
+  background-color: #585756;
+}
+
+.b-green {
+  background-color: #79c04a;
+}
+
+.b-purple {
+  background-color: #676bb0;
+}
+
+.b-pink {
+  background-color: #ee4475;
+}
+
+.b-orange {
+  background-color: #faa919;
+}
+
+.b-blue {
+  background-color: #03B2E0;
+}
+
+.t-h0 {
+  font: larger;
+  color: #faa919;
+}
+
+.t-h1 {
+  font-size: large;
+  color: #faf3e8;
 }
 
 
+.t-h2 {
+  font-size: larger;
+  color: #2e2d2c;
+}
+
+.t-support {
+  font-size: x-small;
+  font-weight: 100;
+  color: #e6e6e5;
+}
+
+.t-support-black {
+  font-size: x-small;
+  font-weight: 100;
+  color: #2e2d2c;
+}
+
+.t-high {
+  color: #e6e6e5;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.i-black {
+  color: #2e2d2c;
+}
+
+.j-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upload-number {
+  background-color: #878bda;
+}
+
+.fase-number {
+  background-color: #9c294a;
+}
 
 @media(max-width: 767px) {
   #side_nav {

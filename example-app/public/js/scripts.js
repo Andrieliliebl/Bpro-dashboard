@@ -12,4 +12,3 @@ document.querySelector('.close-btn').on('click', function () {
     document.querySelector('.sidebar').removeClass('active');
 
 });
-
